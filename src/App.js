@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./components/NavBar/NavBar";
+import Particles from "./components/Particles/Particles";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header/Header";
+import AboutMe from "./screens/AboutMe/AboutMe";
+import Technologies from "./screens/Technologies/Technologies";
+import Portfolio from "./screens/Portfolio/Portfolio";
+import ContactMe from "./screens/ContactMe/ContactMe";
 
-function App() {
+
+export function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{ position: "relative", zIndex: 1 }}>
+        <NavBar />
+        <Header />
+        <AboutMe />
+        <Technologies />
+        <Portfolio />
+        <ContactMe />
+      </div>
+      <Particles />
     </div>
   );
-}
+};
 
 export default App;

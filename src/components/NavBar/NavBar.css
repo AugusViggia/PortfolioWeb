@@ -1,0 +1,36 @@
+.navigation_container {
+    background-color: var(--nav-color);
+    color: white;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 4 !important;
+    padding: 0.5rem !important;
+}
+
+.basicbasic-navbar-nav {
+    justify-content: flex-end;
+    margin-right: 1rem;
+    border-color: "none";
+}
+
+.nav_link {
+    color: var(--font-color) !important;
+    margin: 0 1rem;
+}
+
+.nav_link:hover {
+    color: var(--font-color-hover) !important;
+}
+
+.nav_name {
+    color: var(--font-color) !important;
+    margin-left: 1rem;
+}
+
+.nav_toggle {
+    filter: invert(1);
+}
+
+.nav_toggle:hover {
+    filter: invert(0.7);
+}
