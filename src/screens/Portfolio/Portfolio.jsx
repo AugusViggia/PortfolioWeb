@@ -50,7 +50,7 @@ function Portfolio() {
 
   const mapped = portfolioData.map((project, idx) => {
     return (
-      <Card key={idx} id="portfolio__card">
+      <Card key={idx} className="portfolio__card">
         <Image
           onClick={() => {
             setSelectedProject({
@@ -84,8 +84,8 @@ function Portfolio() {
           https://github.com/AugusViggia
         </a>
       </p>
-      <Container fluid="lg" style={{ padding: '2rem 0' }}>
-        <Row>
+      <Container fluid="lg" style={{ padding: '0.5rem 0' }}>
+        <Row className='projectRow'>
           {mapped}
         </Row>
       </Container>

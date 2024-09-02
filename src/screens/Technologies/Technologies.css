@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     color: var(--font-color);
 }
@@ -16,10 +16,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem;
     width: 100%;
+    gap: 0.5rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .tech__card{
@@ -29,4 +30,38 @@
     justify-content: center;
     width: 200px;
     height: 200px;
+}
+
+.tech__icons{
+    max-width: 120px; 
+    height: 120px;
+}
+
+.tech__name{
+    margin: 5px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .tech__cards__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.5rem;
+        width: 100%;
+        justify-items: center;
+    }
+    .tech__icons {
+        max-width: 50px;
+        height: 50px;
+    }
+
+    .tech__card{
+        width: 100px;
+        height: 100px;
+    }
+
+    .tech__name{
+        font-size: 1rem;
+    }
 }

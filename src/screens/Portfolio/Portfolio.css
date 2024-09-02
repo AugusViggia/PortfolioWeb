@@ -44,10 +44,30 @@
     text-decoration: none;
 }
 
+.projectRow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
 @media only screen and (max-width: 600px) {
     #portfolio__card__container {
         width: 100%;
         padding: 0.5rem 2.5rem;
         border: none;
+    }
+
+    .projectRow{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .portfolio__card {
+        width: 75%;
     }
 }

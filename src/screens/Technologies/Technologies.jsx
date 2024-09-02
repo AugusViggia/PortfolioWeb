@@ -6,7 +6,7 @@ function Technologies() {
     return (
         <div className="technologies__container" id='technologies'>
             <div>
-                <h1 style={{ textAlign: "center" }}>
+                <h1 style={{ textAlign: "center", marginTop: "2rem", marginBottom: "2rem" }}>
                     Technologies I've worked with
                 </h1>
             </div>
@@ -14,13 +14,13 @@ function Technologies() {
                 {techs.map((e, idx) => {
                     return (
                         <div key={idx} className="tech__card">
-                            <span style={{ margin: "5px", fontSize: "2.5rem", textAlign: "center" }}>
+                            <span className='tech__name'>
                                 {e.name}
                             </span>
                             <img
                                 alt='tech-icon'
                                 src={`https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${e.iconName}/${e.iconName}-original.svg`}
-                                style={{ width: "120px", height: "120px" }}
+                                className='tech__icons'
                             />
                         </div>
                     );

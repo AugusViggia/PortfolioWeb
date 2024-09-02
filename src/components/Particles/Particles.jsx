@@ -93,10 +93,10 @@ const ParticlesComponent = () => {
         init={particlesInit}
         options={options}
         style={{
-          position: "fixed", 
+          position: "fixed",
           top: 0,
           left: 0,
-          width: "100%",
+          maxWidth: "100vw",
           height: "100%",
           zIndex: -1,
         }}

@@ -2,7 +2,7 @@
     background-color: var(--nav-color);
     color: white;
     position: fixed !important;
-    width: 100% !important;
+    width: 100vw !important;
     z-index: 4 !important;
     padding: 0.5rem !important;
 }
@@ -16,6 +16,9 @@
 .nav_link {
     color: var(--font-color) !important;
     margin: 0 1rem;
+}
+
+.mr-auto {
 }
 
 .nav_link:hover {
