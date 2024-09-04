@@ -14,6 +14,11 @@
     border: none;
 }
 
+.portfolio__card__image{
+    width: 100%;
+    border: 3px solid blue;
+}
+
 .portfolio__image:hover {
     cursor: pointer;
     filter: brightness(50%);
@@ -50,6 +55,10 @@
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
+}
+
+.portfolio__card{
+    border: 3px solid red;
 }
 
 @media only screen and (max-width: 600px) {

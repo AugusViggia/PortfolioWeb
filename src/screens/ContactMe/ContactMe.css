@@ -1,4 +1,6 @@
 .contactMe_container{
+    display: flex;
+    flex-direction: column;
     background-color: var(--nav-color);
     color: aliceblue;
     padding: 1rem;
@@ -7,6 +9,8 @@
 
 .contactMe_data_links{
     display: flex;
+    flex-direction: column;
+    text-align: left;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -19,6 +23,11 @@
 
 .contactMe_data_links a:hover{
     color: var(--light-color);
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 600px){
