@@ -5,6 +5,7 @@
     color: aliceblue;
     padding: 1rem;
     max-width: 100vw;
+    text-align: center;
 }
 
 .contactMe_data_links{
@@ -12,7 +13,7 @@
     flex-direction: column;
     text-align: left;
     text-decoration: none;
-    text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
 .contactMe_data_links a{
@@ -30,9 +31,65 @@
     margin-top: 1rem;
 }
 
+.contactMe_data_links p {
+    margin: 0.5rem 0;
+}
+
+.contactMe_social_links {
+    margin: 1rem 0;
+}
+
+.contactMe_social_links a {
+    margin: 0 0.5rem;
+    color: #333;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.contactMe_social_links a:hover {
+    color: #0073b1;
+    /* Default hover color */
+    /* Cambia el color al pasar el mouse */
+}
+
+/* Specific hover colors for each icon */
+.contactMe_social_links a.github:hover {
+    color: #000000;
+    /* Black for GitHub */
+}
+
+.contactMe_social_links a.instagram:hover {
+    color: #E1306C;
+    /* Violet for Instagram */
+}
+
+.contactMe_social_links a.linkedin:hover {
+    color: #0077B5;
+    /* Blue for LinkedIn */
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #666;
+}
+
 @media screen and (max-width: 600px){
     .contactMe_data_links{
         flex-direction: column;
     }
-    
+    .contactMe_social_links a.github {
+        color: #000000;
+        /* Black for GitHub */
+    }
+
+    .contactMe_social_links a.instagram {
+        color: #E1306C;
+        /* Violet for Instagram */
+    }
+
+    .contactMe_social_links a.linkedin {
+        color: #0077B5;
+        /* Blue for LinkedIn */
+    }
 }

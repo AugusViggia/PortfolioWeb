@@ -10,11 +10,11 @@ const ParticlesComponent = () => {
               value: "#1e272e",
             },
           },
-          fpsLimit: 60,
+          fpsLimit: 30,
           interactivity: {
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: "push",
               },
               // onHover: {
@@ -26,12 +26,12 @@ const ParticlesComponent = () => {
             modes: {
               bubble: {
                 distance: 170,
-                duration: 5,
-                opacity: 0.5,
+                duration: 3,
+                opacity: 0,
                 size: 50,
               },
               push: {
-                quantity: 3,
+                quantity: 1,
               },
               repulse: {
                 distance: 100,
@@ -43,13 +43,13 @@ const ParticlesComponent = () => {
             color: {
               value: "#34ace0",
             },
-            links: {
-              color: "#dff9fb",
-              distance: 120,
-              enable: true,
-              opacity: 2,
-              width: 1,
-            },
+            // links: {
+            //   color: "#dff9fb",
+            //   distance: 120,
+            //   enable: true,
+            //   opacity: 2,
+            //   width: 1,
+            // },
             collisions: {
               enable: true,
             },
@@ -58,7 +58,7 @@ const ParticlesComponent = () => {
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 1,
+              speed: 0.5,
               straight: false,
             },
             number: {

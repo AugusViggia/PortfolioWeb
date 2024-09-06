@@ -8,12 +8,24 @@ export const techs = [
     iconName: "nextjs",
   },
   {
+    name: "Laravel",
+    iconName: "laravel",
+  },
+  {
+    name: "React Native",
+    iconName: "react",
+  },
+  {
     name: "Javascript",
     iconName: "javascript",
   },
   {
     name: "Python",
     iconName: "python",
+  },
+  {
+    name: "PHP",
+    iconName: "php",
   },
   {
     name: "CSS3",

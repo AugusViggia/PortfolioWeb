@@ -4,36 +4,37 @@ import "./Header.css";
 
 function Header() {
     return (
-        <div className="container" id='home'>
-            <h1 className="title">What am I?</h1>
+        <div className="container" id="home">
+            <h1 className="title">Who I Am and My Skills</h1>
             <ReactTyped
                 strings={[
                     " ",
-                    "I'm a Full Stack Developer  ",
+                    "I'm a Full Stack Developer",
                     " ",
-                    "Mobile and Web  ",
+                    "With knowledge in Web and Mobile Development",
                     " ",
-                    "Specialized in HTML, CSS, JavaScript and Python  ",
+                    "Known languages: HTML, CSS, JavaScript, Python, and PHP",
                     " ",
-                    "Experienced with Next.js, React.js  ",
+                    "Frameworks I work with are Next.js, React, React Native, and Laravel",
                     " ",
-                    "React Native  ",
+                    "Experienced with Front-End libraries like Bootstrap",
                     " ",
-                    "Front-End abilities with Bootstrap and React-Bootstrap  ",
+                    "Back-End libraries: Node.js and Express.js",
                     " ",
-                    "Back-End with Node.js and Express.js  ",
+                    "PostgreSQL",
                     " ",
-                    "Database Management with PostgreSQL  ",
+                    "Firebase",
                     " ",
-                    "Firebase  ",
+                    "Git",
                     " ",
-                    "& GitHub  ",
+                    "& GitHub.",
                     " ",
                     " ",
                 ]}
                 typeSpeed={40}
                 backSpeed={60}
                 loop
+                className='strings'
             />
         </div>
     );

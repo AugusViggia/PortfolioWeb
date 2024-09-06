@@ -6,6 +6,7 @@
     height: 100%;
     width: 100%;
     color: var(--font-color);
+    margin-bottom: 5rem;
 }
 
 .tech__icons {
@@ -17,10 +18,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    gap: 0.5rem;
+    gap: 1.5rem;
+    padding: 1rem;
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .tech__card{

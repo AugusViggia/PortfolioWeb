@@ -1,5 +1,8 @@
 .portfolio{
     height: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
 }
 
 .portfolio__main__container h1,
@@ -8,15 +11,18 @@
     margin-top: 3rem;
 }
 
+#portfolio{
+    margin-bottom: 3rem;
+}
+
 #portfolio__card__container {
     width: 50%;
     padding: 10px;
-    border: none;
 }
 
 .portfolio__card__image{
     width: 100%;
-    border: 3px solid blue;
+    border-radius: 0.5rem;
 }
 
 .portfolio__image:hover {
@@ -55,10 +61,14 @@
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
+    
 }
 
 .portfolio__card{
-    border: 3px solid red;
+    max-width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -78,5 +88,8 @@
 
     .portfolio__card {
         width: 75%;
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
     }
 }

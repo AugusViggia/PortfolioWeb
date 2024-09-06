@@ -12,7 +12,7 @@ export const navigationLinks = [
         ref: "#technologies",
     },
     {
-        name: "PORTFOLIO",
+        name: "PROJECTS",
         ref: "#portfolio",
     },
     {

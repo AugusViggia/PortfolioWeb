@@ -72,18 +72,8 @@ function Portfolio() {
   });
 
   return (
-    <div className="portfolio" id="portfolio">
-      <h1>PORTFOLIO</h1>
-      <p>
-        This is my Github page:{" "}
-        <a
-          href="https://github.com/AugusViggia"
-          target="_blank"
-          rel="noreferrer"
-        >
-          https://github.com/AugusViggia
-        </a>
-      </p>
+    <div className="portfolio">
+      <h1 id='portfolio'>My Best Projects</h1>
       <Container fluid="lg" style={{ padding: '0.5rem 0' }}>
         <Row className='projectRow'>
           {mapped}

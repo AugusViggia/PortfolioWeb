@@ -6,6 +6,7 @@
     align-items: center;
     min-height: 100vh;
     gap: 4rem;
+    margin-bottom: 5rem;
 }
 
 .about__container img {
