@@ -5,7 +5,6 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import './ContactMe.css'
 
 function ContactMe() {
