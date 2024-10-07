@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import './ContactMe.css'
+import './ContactMe.css';
 
 function ContactMe() {
   return (
